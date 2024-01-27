@@ -4,11 +4,11 @@
 // Fix anything that needs fixing.
 
 const person = {
-    "name": "Jemima",
-    "location",
-    "id_number" = 9,
+  name: "Jemima",
+  location: "manchester",
+  id_number: 9,
 };
 
-console.assert(person.name === "Jemima");
-console.assert(person.location === "Glasgow");
-console.assert(person.id_number === 9);
+console.assert(person.name === "Jemima", "test 1");
+console.assert(person.location === "Glasgow", "test 2");
+console.assert(person.id_number === 9, "test 3");
